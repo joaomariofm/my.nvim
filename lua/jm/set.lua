@@ -12,8 +12,8 @@ vim.opt.shiftwidth = 2
 
 vim.opt.autoindent = true
 
-vim.opt.spell = true
-_spell_control = true
+vim.opt.spell = false
+_spell_control = false
 vim.opt.spelllang = "pt_br"
 
 
