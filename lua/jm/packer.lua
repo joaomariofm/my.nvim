@@ -17,6 +17,8 @@ return require('packer').startup(function(use)
 
 	use { "catppuccin/nvim", as = "catppuccin" }
 
+	use { "junegunn/goyo.vim", as = "goyo" } 
+
 	-- install without yarn or npm
 	use({
 		"iamcco/markdown-preview.nvim",

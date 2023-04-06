@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/joaomario/.local/share/nvim/site/pack/packer/start/catppuccin",
     url = "https://github.com/catppuccin/nvim"
   },
+  goyo = {
+    loaded = true,
+    path = "/home/joaomario/.local/share/nvim/site/pack/packer/start/goyo",
+    url = "https://github.com/junegunn/goyo.vim"
+  },
   ["markdown-preview.nvim"] = {
     loaded = true,
     path = "/home/joaomario/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
