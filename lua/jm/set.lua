@@ -12,3 +12,12 @@ vim.opt.shiftwidth = 2
 
 vim.opt.autoindent = true
 
+vim.opt.spell = true
+_spell_control = true
+vim.opt.spelllang = "pt_br"
+
+
+vim.keymap.set("n", "<leader>s", function()
+	_spell_control = not _spell_control
+	vim.opt.spell = _spell_control
+end)
