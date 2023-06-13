@@ -23,3 +23,4 @@ vim.keymap.set("n", "<leader>s", function()
 	_spell_control = not _spell_control
 	vim.opt.spell = _spell_control
 end)
+

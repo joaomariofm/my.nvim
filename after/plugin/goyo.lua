@@ -3,3 +3,4 @@ vim.keymap.set('n', '<C-g>', '', {
 		vim.api.nvim_command(":Goyo")
 	end
 })
+
