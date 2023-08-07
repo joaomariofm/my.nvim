@@ -9,10 +9,10 @@ return require('packer').startup(function(use)
 
 	use { "junegunn/goyo.vim", as = "goyo" } 
 
-	use {
+	use (
 		'nvim-treesitter/nvim-treesitter',
-		run = ':TSUpdate'
-	}
+		{{ run = ':TSUpdate' }}
+	)
 
 	use {
 		'nvim-telescope/telescope.nvim',
