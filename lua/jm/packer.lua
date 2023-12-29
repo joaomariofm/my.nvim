@@ -7,8 +7,6 @@ return require('packer').startup(function(use)
 
 	use { "github/copilot.vim", as = "copilot" }
 
-	use { "junegunn/goyo.vim", as = "goyo" } 
-
 	use (
 		'nvim-treesitter/nvim-treesitter',
 		{{ run = ':TSUpdate' }}
@@ -26,6 +24,11 @@ return require('packer').startup(function(use)
 		"akinsho/toggleterm.nvim",
 		tag = '*',
 		config = function() require("toggleterm").setup() end
+	}
+
+	use {
+		'nvim-lualine/lualine.nvim',
+		requires = { 'nvim-tree/nvim-web-devicons', opt = true }
 	}
 
 	use {
