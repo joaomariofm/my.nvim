@@ -27,12 +27,11 @@ vim.opt.relativenumber = true
 vim.opt.autoindent = true
 
 vim.opt.spell = false
-_spell_control = false
+local _spell_control = false
 vim.opt.spelllang = "pt_br"
 
 vim.keymap.set("n", "<leader>s", function()
 	_spell_control = not _spell_control
 	vim.opt.spell = _spell_control
 end)
-
 
