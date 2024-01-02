@@ -13,6 +13,8 @@ return require('packer').startup(function(use)
 		{{ run = ':TSUpdate' }}
 	)
 
+	-- telescope requires **ripgrep** package
+
 	use {
 		'nvim-telescope/telescope.nvim',
 		tag = '0.1.4',
