@@ -3,6 +3,7 @@ local lsp = require('lsp-zero').preset({})
 lsp.ensure_installed({
 	'tsserver',
 	'vtsls',
+	'lua_ls',
 	'eslint'
 })
 
