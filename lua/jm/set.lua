@@ -26,6 +26,7 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.autoindent = true
 
+-- spell check
 vim.opt.spell = false
 local _spell_control = false
 vim.opt.spelllang = "pt_br"
