@@ -10,7 +10,7 @@ vim.api.nvim_set_keymap('t', '<C-h>', '<Cmd>wincmd h<CR>', {noremap = true})
 
 toggleterm.setup({
 	size = 20,
-	open_mapping = [[<leader>tt]],
+	open_mapping = [[<C-j>]],
 	direction = "horizontal",
 
 	start_in_insert = true,
