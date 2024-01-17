@@ -35,10 +35,17 @@ return require('packer').startup(function(use)
 	}
 
 	use {
+  	'numToStr/Comment.nvim',
+  	config = function()
+    	require('Comment').setup()
+    end
+	}
+
+	use {
 		'VonHeikemen/lsp-zero.nvim',
 		branch = 'v2.x',
 		requires = {
-			{ 'neovim/nvim-lspconfig' }, 
+			{ 'neovim/nvim-lspconfig' },
 			{
 				'williamboman/mason.nvim',
 				run = function()
@@ -46,9 +53,9 @@ return require('packer').startup(function(use)
 				end
 			},
 			{'williamboman/mason-lspconfig.nvim'},
-			{'hrsh7th/nvim-cmp'}, 
+			{'hrsh7th/nvim-cmp'},
 			{'hrsh7th/cmp-nvim-lsp'},
-			{'L3MON4D3/LuaSnip'}, 
+			{'L3MON4D3/LuaSnip'},
 		}
 	}
 
