@@ -1,5 +1,5 @@
-require("gruvbox").setup({
-  terminal_colors = true, 
+require('gruvbox').setup({
+  terminal_colors = true,
   undercurl = true,
   underline = true,
   bold = true,
@@ -22,4 +22,5 @@ require("gruvbox").setup({
   dim_inactive = false,
   transparent_mode = true,
 })
+
 vim.cmd("colorscheme gruvbox")
