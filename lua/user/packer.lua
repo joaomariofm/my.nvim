@@ -3,6 +3,9 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
 	use { 'wbthomason/packer.nvim' }
 
+	-- web-devicons
+	use { 'nvim-tree/nvim-web-devicons' }
+
 	-- telescope
 	use { 'nvim-lua/plenary.nvim' }
 	use { 'nvim-telescope/telescope.nvim' }
@@ -11,7 +14,6 @@ return require('packer').startup(function(use)
 	use { 'ellisonleao/gruvbox.nvim' }
 
 	-- lualine
-	use { 'nvim-tree/nvim-web-devicons' }
 	use { 'nvim-lualine/lualine.nvim' }
 
 	-- comment
@@ -22,7 +24,7 @@ return require('packer').startup(function(use)
 
 	-- lsp zero
 	use { 'williamboman/mason.nvim' }
-  use { 'williamboman/mason-lspconfig.nvim' }
+	use { 'williamboman/mason-lspconfig.nvim' }
 	use { 'neovim/nvim-lspconfig' }
 	use { 'hrsh7th/nvim-cmp' }
 	use { 'hrsh7th/cmp-nvim-lsp' }
@@ -34,4 +36,7 @@ return require('packer').startup(function(use)
 
 	-- toggleterm
 	use { 'akinsho/toggleterm.nvim' }
+
+	-- nvimtree
+	use { 'nvim-tree/nvim-tree.lua' }
 end)
