@@ -8,7 +8,7 @@ return require('packer').startup(function(use)
 	use { 'nvim-telescope/telescope.nvim' }
 
 	-- gruvbox colorscheme
-	use { "ellisonleao/gruvbox.nvim" }
+	use { 'ellisonleao/gruvbox.nvim' }
 
 	-- lualine
 	use { 'nvim-tree/nvim-web-devicons' }
@@ -18,7 +18,7 @@ return require('packer').startup(function(use)
 	use { 'numToStr/Comment.nvim' }
 
 	-- github copilot
-	use { "github/copilot.vim" }
+	use { 'github/copilot.vim' }
 
 	-- lsp zero
 	use { 'williamboman/mason.nvim' }
@@ -31,4 +31,7 @@ return require('packer').startup(function(use)
 
 	-- treesitter
 	use { 'nvim-treesitter/nvim-treesitter' }
+
+	-- toggleterm
+	use { 'akinsho/toggleterm.nvim' }
 end)
