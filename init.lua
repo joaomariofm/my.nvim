@@ -1,2 +1,3 @@
-require("user")
-require("plugins")
+require('user')
+require('plugins')
+require('lsp')
