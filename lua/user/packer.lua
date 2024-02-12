@@ -39,4 +39,7 @@ return require('packer').startup(function(use)
 
 	-- nvimtree
 	use { 'nvim-tree/nvim-tree.lua' }
+
+	-- fugitive
+	use { 'tpope/vim-fugitive' }
 end)
