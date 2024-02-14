@@ -20,8 +20,8 @@ require('lualine').setup {
 	sections = {
 		lualine_a = {'mode'},
     lualine_b = {'filename'},
-    lualine_c = {'filetype'},
-    lualine_x = {},
+    lualine_c = {},
+    lualine_x = {'filetype'},
     lualine_y = {'progress'},
     lualine_z = {'location'}
 
@@ -29,10 +29,10 @@ require('lualine').setup {
   inactive_sections = {
     lualine_a = {},
     lualine_b = {'filename'},
-    lualine_c = {'filetype'},
-    lualine_x = {'location'},
+    lualine_c = {},
+    lualine_x = {'filetype'},
     lualine_y = {},
-    lualine_z = {}
+    lualine_z = {'location'}
   },
   tabline = {},
   winbar = {},
