@@ -23,7 +23,7 @@ require("nvim-tree").setup({
 		},
   },
   filters = {
-    dotfiles = true,
+    dotfiles = false,
   },
 	actions = {
 		open_file = {
@@ -31,5 +31,8 @@ require("nvim-tree").setup({
 				enable = false,
 			},
 		},
+	},
+	git = {
+		ignore = false,
 	},
 })
