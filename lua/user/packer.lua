@@ -42,4 +42,7 @@ return require('packer').startup(function(use)
 
 	-- fugitive
 	use 'tpope/vim-fugitive'
+
+	-- zen-mode
+	use 'folke/zen-mode.nvim'
 end)
