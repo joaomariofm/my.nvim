@@ -45,4 +45,7 @@ return require('packer').startup(function(use)
 
 	-- zen-mode
 	use 'folke/zen-mode.nvim'
+
+	-- obsidian -- requires -- use 'nvim-lua/plenary.nvim'
+	use 'epwalsh/obsidian.nvim'
 end)
