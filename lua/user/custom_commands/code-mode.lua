@@ -3,4 +3,4 @@ local function code_mode ()
 	vim.opt.relativenumber = true
 end
 
-vim.api.nvim_create_user_command("CodeMode", code_mode, {})
+vim.api.nvim_create_user_command("C", code_mode, {})
