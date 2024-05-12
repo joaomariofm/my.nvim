@@ -8,11 +8,6 @@ end)
 
 mason.setup({})
 mason_lspconfig.setup({
-	ensure_installed = {
-		'tsserver',
-		'vtsls',
-		'eslint'
-	},
   handlers = {
     lsp_zero.default_setup,
   },
