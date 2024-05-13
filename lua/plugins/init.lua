@@ -1,3 +1,4 @@
+require('plugins.web-devicons')
 require('plugins.telescope')
 require('plugins.gruvbox')
 require('plugins.lualine')
