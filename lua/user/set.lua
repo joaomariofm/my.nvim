@@ -22,4 +22,4 @@ vim.opt.relativenumber = true
 vim.opt.autoindent = true
 
 -- spell language
-vim.opt.spelllang = 'pt'
+vim.opt.spelllang = 'pt,en'
