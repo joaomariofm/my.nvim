@@ -6,6 +6,10 @@ vim.api.nvim_set_hl(0, 'NormalNC', { bg = 'none' })
 vim.api.nvim_set_hl(0, 'SignColumn', { bg = 'none' })
 vim.api.nvim_set_hl(0, 'CursorLine', { bg = 'none' })
 
+-- indentation config
+vim.opt.expandtab = true
+vim.opt.shiftwidth = 1
+
 -- directories listing style
 vim.g.netrw_liststyle = 3
 
