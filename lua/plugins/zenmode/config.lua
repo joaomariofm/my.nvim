@@ -1,5 +1,5 @@
 local function zen_mode()
-	require("zen-mode").toggle({
+	require('zen-mode').toggle({
 		window = {
 			width = .55,
 			height = .90,

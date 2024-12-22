@@ -1,5 +1,3 @@
-vim.g.mapleader = ' '
-
 -- transparency cases
 vim.api.nvim_set_hl(0, 'Normal', { bg = 'none' })
 vim.api.nvim_set_hl(0, 'NormalNC', { bg = 'none' })
@@ -18,12 +16,13 @@ vim.opt.clipboard = 'unnamedplus'
 
 -- file structure
 vim.opt.tabstop = 2
-vim.opt.shiftwidth = 2
-vim.opt.shiftwidth = 2
-vim.opt.smartindent = true
 vim.opt.number = true
-vim.opt.relativenumber = true
+vim.opt.shiftwidth = 2
+vim.opt.shiftwidth = 2
 vim.opt.autoindent = true
+vim.opt.smartindent = true
+vim.opt.relativenumber = true
 
 -- spell language
 vim.opt.spelllang = 'pt,en'
+
