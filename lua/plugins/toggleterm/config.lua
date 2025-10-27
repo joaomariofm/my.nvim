@@ -1,6 +1,5 @@
 local toggleterm = require('toggleterm')
 
-vim.api.nvim_set_keymap('t', '<Esc>', '<C-\\><C-n>', {noremap = true})
 vim.api.nvim_set_keymap('t', '<C-l>', '<Cmd>wincmd l<CR>', {noremap = true})
 vim.api.nvim_set_keymap('t', '<C-h>', '<Cmd>wincmd h<CR>', {noremap = true})
 
