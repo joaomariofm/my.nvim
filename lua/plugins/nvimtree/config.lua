@@ -7,7 +7,7 @@ vim.keymap.set('n', '<leader>r', ':NvimTreeRefresh<CR>', { noremap = true, silen
 vim.keymap.set('n', '<leader>f', ':NvimTreeFindFile<CR>', { noremap = true, silent = true })
 
 require('nvim-tree').setup({
-  view = { width = 37 },
+  view = { width = 60 },
 	git = { ignore = false },
   filters = { dotfiles = false },
   sort = { sorter = 'case_sensitive' },
