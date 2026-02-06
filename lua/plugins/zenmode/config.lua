@@ -4,8 +4,8 @@ local function zen_mode()
 			width = .55,
 			height = .90,
 			options = {
-				number = false,
-				relativenumber = false
+				number = true,
+				relativenumber = true
 			}
 		}
 	})
