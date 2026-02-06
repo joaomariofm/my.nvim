@@ -14,4 +14,5 @@ require('plugins.gruvbox.config')
 require('plugins.lspzero.config')
 require('plugins.treesitter.config')
 require('plugins.toggleterm.config')
+require('plugins.harpoon.config')
 
