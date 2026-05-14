@@ -8,7 +8,9 @@ require('nvim-treesitter.configs').setup({
     "css",
     "html",
     "typescript",
-    "javascript"
+    "javascript",
+    "rust",
+    "toml"
   },
   sync_install = false,
   auto_install = true,
